@@ -11,10 +11,8 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
 
-I am Devil Music Bot, an open-source bot that lets you play music in your Telegram groups voice chat.
+I am Sukuna Music Bot, an open-source bot that lets you play music in your Telegram groups voice chat.
 This bot is based on su music project and hamkers vc bot. 
-
-To add in your group contact us at @devilcodes_network
 
 Use the buttons below to know more about me.""",
         reply_markup=InlineKeyboardMarkup(
